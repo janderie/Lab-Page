@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       image:
-        filename: welcome_1.jpg
+        filename: welcome2.jpg
       text: |
         <br>
         
