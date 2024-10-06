@@ -7,9 +7,6 @@ type: landing
 sections:
   - block: hero
     content:
-      title: |
-        Anderies lab @ ASU
-        Research Group
       image:
         filename: welcome.jpg
       text: |
