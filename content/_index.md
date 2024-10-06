@@ -12,7 +12,7 @@ sections:
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+         Professor Anderies' Lab group's current research interests focus on robust management and robust institutional design for coupled social-ecological systems. He studies a range of archaeological, historical, and present-day examples of social-ecological systems using multiple methods including human subject experiments, qualitative case-study analysis, and formal mathematical modeling to analyze how ecological, behavioral, social, and institutional factors generate vulnerability and/or enhance resilience and robustness in social-ecological systems. Other areas of interest include economic growth, demographics, migration, environmental justice, and inequality. This is the latest.
   
   - block: collection
     content:
@@ -31,7 +31,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '1'
+      columns: '2'
   
   - block: markdown
     content:
