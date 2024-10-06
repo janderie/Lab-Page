@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
+        Anderies lab @ ASU
         Research Group
       image:
         filename: welcome.jpg
