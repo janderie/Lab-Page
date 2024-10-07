@@ -8,7 +8,10 @@ sections:
   - block: hero
     content:
       image:
-        filename: welcome2.jpg
+        filename: welcome_1.png
+      background:
+        filename: welcome2.jpg  # Specify your background image here
+      style: cover              # Ensure the image covers the hero section
       text: |
         <br>
         
