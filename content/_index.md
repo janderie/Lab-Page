@@ -17,7 +17,7 @@ sections:
     design:
       background:
         image: 
-          filename: coders.jpg
+          filename: stacked-peaks.svg
           filters:
             brightness: 1
           parallax: false
