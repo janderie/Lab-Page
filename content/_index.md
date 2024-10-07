@@ -9,13 +9,22 @@ sections:
     content:
       image:
         filename: welcome_1.png
-      background:
-        filename: welcome2.jpg  # Specify your background image here
-      style: cover              # Ensure the image covers the hero section
       text: |
         <br>
         
          Professor Anderies' Lab group's current research interests focus on robust management and robust institutional design for coupled social-ecological systems. He studies a range of archaeological, historical, and present-day examples of social-ecological systems using multiple methods including human subject experiments, qualitative case-study analysis, and formal mathematical modeling to analyze how ecological, behavioral, social, and institutional factors generate vulnerability and/or enhance resilience and robustness in social-ecological systems. Other areas of interest include economic growth, demographics, migration, environmental justice, and inequality. This is the latest.
+         
+    design:
+      background:
+        image: 
+          filename: coders.jpg
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+         
+
   
   - block: collection
     content:
@@ -34,7 +43,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '2'
+      columns: '3'
   
   - block: markdown
     content:
