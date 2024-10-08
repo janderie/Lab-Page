@@ -9,11 +9,11 @@ sections:
     content:
       image:
         filename: welcome_1.png
-      text: |
-        <br>
+      #text: |
+      #  <br>
         
-         Professor Anderies' Lab group's current research interests focus on robust management and robust institutional design for coupled social-ecological systems. Other areas of interest include economic growth, demographics, migration, environmental justice, and inequality. This is the latest.
-         {style="color: red"}
+      #   Professor Anderies' Lab group's current research interests focus on robust management and robust institutional design for coupled social-ecological systems. Other areas of interest include economic growth, demographics, migration, environmental justice, and inequality. This is the latest.
+      #   {style="color: red"}
          
     design:
       background:
