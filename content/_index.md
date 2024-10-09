@@ -13,17 +13,17 @@ sections:
         <br>
         
          Our research focuses on  on robust management and robust institutional design for coupled social-ecological systems. Other areas of interest include economic growth, demographics, migration, environmental justice, and inequality. This is the latest.
-         {style="color:white;font-size:1em"}
+         {style="color:black;font-size:14px"}
          
-    design:
-      background:
-        image: 
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
+    #design:
+     # background:
+      #  image: 
+       #   filename: stacked-peaks.svg
+        #  filters:
+         #   brightness: 1
+          #parallax: false
+          #position: center
+          #size: cover
          
 
   
