@@ -10,6 +10,7 @@ sections:
       slides:
       - title: 👋 Welcome to the group
         content: Take a look at what we're working on...
+        text: We are working on several projects that focus on the capacity of communities to cope with changing environments, both built and natural. 
         align: center
         background:
           image:
