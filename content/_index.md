@@ -44,8 +44,7 @@ sections:
       order: desc
       page_type: post
     design:
-      view: card
-      columns: '2'
+      view: Masonry
 
 
 #Examples of different blocks, not used on landing page.
