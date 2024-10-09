@@ -44,8 +44,7 @@ sections:
       order: desc
       page_type: post
     design:
-      view: showcase
-      columns: '1'
+      view: card
 
 
 #Examples of different blocks, not used on landing page.
