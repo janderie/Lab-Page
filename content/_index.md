@@ -12,9 +12,7 @@ sections:
       text: |
         <br>
         
-         Our research focuses on  on robust management and robust institutional design for coupled social-ecological systems. Other areas of interest include economic growth, demographics, migration, environmental justice, and inequality. This is the latest.
-         
-         #{style="color:black;font-size:14px"}
+         Our research focuses on the interplay between institutions, decision-making and the environment in an effort to inform robust institutional design for coupled social-ecological-technical systems. Other areas of interest include economic growth, demographics, migration, environmental justice, and inequality. 
          
     #design:
      # background:
@@ -44,7 +42,7 @@ sections:
       order: desc
       page_type: post
     design:
-      view: Masonry
+      view: showcase
 
 
 #Examples of different blocks, not used on landing page.
@@ -88,7 +86,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./people/" cta_text="Meet the Lab Group →" %}}
     design:
       columns: '1'
 ---
