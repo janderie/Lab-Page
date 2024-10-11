@@ -15,10 +15,10 @@ role: Professor
 # Organizations/Affiliations
 organizations:
   - name: Arizona State University
-    url: ''
+    url: 'https://www.asu.edu/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include collective action, institutions, climate change, infrastructure tranistions, robustness of coupled infrastructure systems.
+bio: J. Marty Anderies is a professor of sustainability at Arizona State University who studies collective action, institutions, climate change, infrastructure tranistions, robustness of coupled infrastructure systems.
 
 interests:
   - Institutions for Collective Action
@@ -73,6 +73,6 @@ user_groups:
   - Researchers
 ---
 
-Nelson Bighetti is a professor of sustainability at Arizona State University
+J. Marty Anderies is a professor of sustainability at Arizona State University
 
 
