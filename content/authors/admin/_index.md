@@ -51,7 +51,7 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/janderie
-  - icon: github
+  - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0000-0002-0138-8655
 
