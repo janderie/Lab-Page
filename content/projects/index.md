@@ -19,15 +19,20 @@ sections:
           position: right
           color: '#666'
       - title: CLEETS
-        content: 'The Clean Energy and Equitable Transporation Project is an NSF-Sponsored Global Center that focuses on navigating the transition to low carbon, accessible, and equitable mobility infrastructure.'
+        content: 'The Clean Energy and Equitable Transporation Project is an NSF-UKRI Global Center that focuses on navigating the transition to low carbon, accessible, and equitable mobility infrastructure.'
         align: left
         background:
           image:
-            filename: contact.jpg
+            filename: CLEETS.jpg
             filters:
               brightness: 0.7
           position: center
           color: '#555'
+        link:
+          icon: graduation-cap
+          icon_pack: fas
+          text: Visit CLEETS
+          url: https://www.cleets-global-center.org/
       - title: World-Class Semiconductor Lab
         content: 'Just opened last month!'
         align: right
