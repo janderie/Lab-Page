@@ -14,32 +14,29 @@ authors:
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Ph.D. Candidate, School of Sustainability
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Arizona State University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include institutions and the dyanamics of coupled infrastructure systems.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Institutions
+  - Water
+  - Politics of Infrastructure Investment 
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Sustainability
+      institution: Arizona Sate University
+      year: 2025 (Expected)
+    - course: BSc Political Science
+      institution: Notre Dame
+      year: 2021
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -73,6 +70,4 @@ user_groups:
   - Grad Students
 ---
 
-吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Adam brings a dynamical systems approach to public infrastructure challenges and explore the interconnected considerations that drive investment. My recent work uses the example of urban water systems in the United States to understand how institutional design contributes to the resilience and distributional equity of them. My methodological approaches include agent-based modeling, dynamical systems modeling, institutional analysis, network analysis, and qualitative content analysis.
