@@ -18,8 +18,8 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+      - title: CLEETS
+        content: 'The Clean Energy and Equitable Transporation Project is an NSF-Sponsored Global Center that focuses on navigating the transition to low carbon, accessible, and equitable mobility infrastructure.'
         align: left
         background:
           image:
