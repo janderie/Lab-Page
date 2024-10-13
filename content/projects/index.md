@@ -32,7 +32,7 @@ sections:
           icon: graduation-cap
           icon_pack: fas
           text: Visit CLEETS
-          url: https://www.cleets-global-center.org/
+          url: 'https://www.cleets-global-center.org/'
       - title: World-Class Semiconductor Lab
         content: 'Just opened last month!'
         align: right
