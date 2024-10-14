@@ -8,7 +8,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the Lab Group
+      - title: 👋 Welcome to our Lab Group
         content: We are working on several projects that focus on the capacity of communities to cope with changing environments, both built and natural.  Please connect with us if you are interested in engaging with our projects and initiatives!
         align: center
         background:
@@ -33,12 +33,12 @@ sections:
           icon_pack: fas
           text: Visit CLEETS
           url: 'https://www.cleets-global-center.org/'
-      - title: 
+      - title: SWSIE
         content: 'The Southwest Sustainability Innovation Engine (SWSIE) is one of the first Regional Innovation Engines supported by the U.S. National Science Foundation to develop innovation ecosystems across the United States. SWSIE focuses on systems-level approach to sustainability innovation to transform infrastructure systems across the water, energy, carbon, and governance sectors'
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: Wind_turbine.jpg
             filters:
               brightness: 0.5
           position: center
@@ -46,8 +46,8 @@ sections:
         link:
           icon: graduation-cap
           icon_pack: fas
-          text: Join Us
-          url: ../contact/
+          text: Visit SWSIE
+          url: 'https://swsie.asu.edu/'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
