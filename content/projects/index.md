@@ -29,12 +29,12 @@ sections:
           position: center
           color: '#555'
         link:
-          icon: graduation-cap
+          icon: share
           icon_pack: fas
           text: Visit CLEETS
           url: 'https://www.cleets-global-center.org/'
       - title: SWSIE
-        content: 'The Southwest Sustainability Innovation Engine (SWSIE) is one of the first Regional Innovation Engines supported by the U.S. National Science Foundation to develop innovation ecosystems across the United States. SWSIE focuses on systems-level approach to sustainability innovation to transform infrastructure systems across the water, energy, carbon, and governance sectors'
+        content: 'The Southwest Sustainability Innovation Engine (SWSIE) is one of the first Regional Innovation Engines supported by the U.S. National Science Foundation to develop innovation ecosystems across the United States. SWSIE focuses on systems-level approaches to sustainability innovation to transform infrastructure systems across the water, energy, carbon, and governance sectors'
         align: right
         background:
           image:
