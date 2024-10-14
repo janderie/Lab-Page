@@ -44,7 +44,7 @@ sections:
           position: center
           color: '#333'
         link:
-          icon: graduation-cap
+          icon: share
           icon_pack: fas
           text: Visit SWSIE
           url: 'https://swsie.asu.edu/'
