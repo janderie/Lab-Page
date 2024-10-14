@@ -13,7 +13,7 @@ sections:
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: Rice_fields_of_Bali.jpg	
             filters:
               brightness: 0.7
           position: right
