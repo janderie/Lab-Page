@@ -8,8 +8,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: We are working on several projects that focus on the capacity of communities to cope with changing environments, both built and natural. 
+      - title: 👋 Welcome to the Lab Group
+        content: We are working on several projects that focus on the capacity of communities to cope with changing environments, both built and natural.  Please connect with us if you are interested in engaging with our projects and initiatives!
         align: center
         background:
           image:
