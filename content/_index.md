@@ -22,7 +22,7 @@ sections:
             brightness: 0.9
           parallax: false
           position: left
-          size: contain
+          size: cover
           text_color_light: true
          
   
