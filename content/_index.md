@@ -21,8 +21,9 @@ sections:
           filters:
             brightness: 0.9
           parallax: false
-          position: center
-          size: cover
+          position: left
+          size: contain
+          text_color_light: true
          
   
   - block: collection
