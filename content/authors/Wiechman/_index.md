@@ -22,7 +22,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include institutions and the dyanamics of coupled infrastructure systems.
+bio: Adam Wiechman is a graudate student at Arizona State University
 
 interests:
   - Institutions
