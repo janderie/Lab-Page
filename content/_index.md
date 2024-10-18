@@ -17,7 +17,7 @@ sections:
     design:
       background:
         image: 
-          filename: hero_background.svg
+          filename: hero_background.png
           filters:
             brightness: 0.9
           parallax: false
