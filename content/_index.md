@@ -7,8 +7,8 @@ type: landing
 sections:
   - block: hero
     content:
-      image:
-        filename: welcome_1.png
+      #image:
+       # filename: welcome_1.png
       text: |
         <br>
         
@@ -17,7 +17,7 @@ sections:
     design:
       background:
         image: 
-          filename: stacked-peaks.svg
+          filename: hero_background.svg
           filters:
             brightness: 0.9
           parallax: false
