@@ -7,8 +7,8 @@ type: landing
 sections:
   - block: hero
     content:
-      #image:
-       # filename: welcome_1.png
+      image:
+        filename: welcome_1.png
       text: |
         <br>
         
@@ -21,7 +21,7 @@ sections:
           filters:
             brightness: 0.9
           parallax: false
-          position: left
+          position: center
           size: cover
           text_color_light: true
          
