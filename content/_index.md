@@ -28,7 +28,7 @@ sections:
   
   - block: collection
     content:
-      title: Latest News
+      title: Latest Musings and News
       subtitle:
       text:
       count: 5
