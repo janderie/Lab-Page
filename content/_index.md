@@ -14,16 +14,16 @@ sections:
         
          Research in the Anderies Lab focuses on the interplay between institutions, decision-making and the environment in an effort to inform robust institutional design for coupled social-ecological-technical systems. Other areas of interest include economic growth, demographics, migration, environmental justice, and inequality.
          {style="line-height:1.4"}    
-    design:
-      background:
-        image: 
-          filename: hero_background.png
-          filters:
-            brightness: 0.9
-          parallax: true
-          position: center
-          size: cover
-          text_color_light: true
+    #design:
+     # background:
+      #  image: 
+       #   filename: hero_background.png
+        #  filters:
+         #   brightness: 0.9
+          #parallax: true
+          #position: center
+          #size: cover
+
          
   
   - block: collection
