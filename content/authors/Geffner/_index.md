@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Adam Wiechman
+title: Claudia Geffner
 
 # Full name (for SEO)
-first_name: Adam
-last_name: Wiechman
+first_name: Claudia
+last_name: Geffner
 
 # Username (this should match the folder name)
 authors:
-  - Wiechman
+  - Geffner
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Ph.D. Candidate, School of Sustainability
+role: Ph.D. Student, School of Sustainability
 
 # Organizations/Affiliations
 organizations:
@@ -22,20 +22,20 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Adam Wiechman is a graudate student at Arizona State University
+bio: Claudia Geffner is a graudate student at Arizona State University
 
 interests:
   - Institutions
-  - Water
+  - Resource Governance in the Mekong Delta
   - Politics of Infrastructure Investment 
 
 education:
   courses:
     - course: PhD in Sustainability
       institution: Arizona Sate University
-      year: 2025 (Expected)
-    - course: BSc Political Science
-      institution: University of Notre Dame
+      year: 2027 (Expected)
+    - course: BSc 
+      institution: Your Ugrad Institution
       year: 2021
 
 # Social/Academic Networking
@@ -70,4 +70,4 @@ user_groups:
   - Grad Students
 ---
 
-Adam brings a dynamical systems approach to public infrastructure challenges and explore the interconnected considerations that drive investment. My recent work uses the example of urban water systems in the United States to understand how institutional design contributes to the resilience and distributional equity of them. My methodological approaches include agent-based modeling, dynamical systems modeling, institutional analysis, network analysis, and qualitative content analysis.
+Claudia studies..... 
