@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Sola Kim
+title: Aurora Cossairt
 
 # Full name (for SEO)
-first_name: Sola
-last_name: Kim
+first_name: Aurora
+last_name: Cossairt
 
 # Username (this should match the folder name)
 authors:
-  - Kim
+  - Cossairt
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,18 +22,18 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Sola Kim is a graudate student at Arizona State University
+bio: Aurora Cossairt is a graudate student at Arizona State University
 
 interests:
   - Institutions
-  - AI
+  - Mobility Infrastructure
   - Politics of Infrastructure Investment 
 
 education:
   courses:
     - course: PhD in Sustainability
       institution: Arizona Sate University
-      year: 2026 (Expected)
+      year: 2027 (Expected)
     - course: BSc 
       institution: Your Ugrad Institution
       year: 2021
@@ -70,4 +70,4 @@ user_groups:
   - Grad Students
 ---
 
-Sola studies..... 
+Aurora studies..... 
