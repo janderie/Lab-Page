@@ -1,5 +1,5 @@
 ---
-title: The publication derby: Citation Cartels
+title: The publication derby - Citation Cartels
 date: 2024-10-04
 ---
 
