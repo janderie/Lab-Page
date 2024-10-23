@@ -10,7 +10,7 @@ sections:
       slides:
       - title: Anderies Lab Projects
         content: We are working on several projects that focus on the capacity of communities to cope with changing environments, both built and natural.  Please connect with us if you are interested in engaging with our projects and initiatives!
-        align: left
+        align: right
         background:
           image:
             filename: Rice_fields_of_Bali.jpg	
@@ -50,7 +50,7 @@ sections:
           url: 'https://swsie.asu.edu/'
       - title: ACTION
         content: 'Alaska Coastal Cooperative for Co-producing Transformative Ideas and Opportunities in the North focuses on relationship-building, uncertainty, humility, and listening to discover innovative pathways to coastal resilience.'
-        align: right
+        align: left
         background:
           image:
             filename: Action.jpg
@@ -63,6 +63,21 @@ sections:
           icon_pack: fas
           text: Visit ACTION
           url: 'https://alaskacoastal.org/action-project/'
+      - title: CISI
+        content: 'The Coupled infrastructure Systems Initiative is a resource for sharing our work on the coupled infrastructure systems framework and examples of diverse existing and potential applications.'
+        align: right
+        background:
+          image:
+            filename: Action.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+        link:
+          icon: share
+          icon_pack: fas
+          text: Visit CISI
+          url: 'https://cisi.info/'
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
