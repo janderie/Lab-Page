@@ -49,7 +49,7 @@ sections:
           text: Visit SWSIE
           url: 'https://swsie.asu.edu/'
       - title: ACTION
-        content: 'Alaska Coastal Cooperative for Co-producing Transformative Ideas and Opportunities in the North'
+        content: 'Alaska Coastal Cooperative for Co-producing Transformative Ideas and Opportunities in the North focuses on relationship-building, uncertainty, humility, and listening to discover innovative pathways to coastal resilience.'
         align: right
         background:
           image:
