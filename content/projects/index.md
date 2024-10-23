@@ -48,7 +48,7 @@ sections:
           icon_pack: fas
           text: Visit SWSIE
           url: 'https://swsie.asu.edu/'
-      - title: {{< math >}}$$AC^3TION$${{< /math >}}
+      - title: ACTION
         content: 'Alaska Coastal Cooperative for Co-producing Transformative Ideas and Opportunities in the North'
         align: right
         background:
