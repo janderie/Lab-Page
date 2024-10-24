@@ -10,7 +10,7 @@ sections:
       slides:
       - title: Anderies Lab Projects
         content: We are working on several projects that focus on the capacity of communities to cope with changing environments, both built and natural.  Please connect with us if you are interested in engaging with our projects and initiatives!
-        align: right
+        align: left
         background:
           image:
             filename: Rice_fields_of_Bali.jpg	
