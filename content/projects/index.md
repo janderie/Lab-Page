@@ -64,7 +64,7 @@ sections:
           text: Visit ACTION
           url: 'https://alaskacoastal.org/action-project/'
       - title: CISI
-        content: 'The Coupled infrastructure Systems Initiative is a resource for sharing our work on the coupled infrastructure systems framework and examples of diverse existing and potential applications.'
+        content: 'The  Coupled infrastructure Systems Initiative is a resource for sharing our work on the coupled infrastructure systems framework and examples of diverse existing and potential applications.'
         align: right
         background:
           image:
