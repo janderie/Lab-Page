@@ -3,14 +3,16 @@ title: The publication derby - Citation Cartels
 date: 2024-10-04
 ---
 
-We often think of the race to fish as the quintessential commons dilemma. So is the race to publish and generate citations. 
+We often think of the race to fish as the quintessential commons dilemma. So is the race to publish and generate citations according to a recent article in Science.
 
 <!--more-->
 
+The problem with open access resources is that there is no agreed upon limit on how much actors can extract or dump.  In the case of publications, researchers can "dump" as many manuscripts into the literature pool as they wish to fish for citations.  Manuscripts are the hooks/nets to fish for citations.  A recent article in Science  describes how Cliques of mathematicians  have been artificially boosting their colleagues’ citation counts by churning out low-quality papers that repeatedly reference their work.
+
+The cost is that the literature becomes flooded  with a
+
 We all lose - just as in the classic open access fishery (forest, groundwater system, atmoshpere....)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
 
-Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.
 
 
