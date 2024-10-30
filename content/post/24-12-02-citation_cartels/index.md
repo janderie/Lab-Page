@@ -13,9 +13,7 @@ The cost is that the literature becomes flooded  with many papers. This makes it
 
 We all lose - just as in the classic open access fishery (forest, groundwater system, atmoshpere....).  We all work too hard to acheive the same thing. Should there be a "tradeable publication quota" just as in fisheries?
 
-{{% alert note %}}
-**[Click Here!](https://www.science.org/content/article/citation-cartels-help-some-mathematicians-and-their-universities-climb-rankings)**
-{{% /alert %}}
+[I'm an external link](https://www.google.com)
 
 
 
