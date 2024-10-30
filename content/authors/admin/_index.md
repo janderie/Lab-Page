@@ -15,7 +15,7 @@ role: Professor
 # Organizations/Affiliations
 organizations:
   - name: Arizona State University
-    url: 'https://www.asu.edu/'
+    url: 'https://search.asu.edu/profile/507986'
 
 # Short bio (displayed in user profile at end of posts)
 bio: J. Marty Anderies is a professor of sustainability at Arizona State University.

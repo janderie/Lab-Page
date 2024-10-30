@@ -9,9 +9,15 @@ We often think of the race to fish as the quintessential commons dilemma. So is 
 
 The problem with open access resources is that there is no agreed upon limit on how much actors can extract or dump.  In the case of publications, researchers can "dump" as many manuscripts into the literature pool as they wish to fish for citations.  Manuscripts are the hooks/nets to fish for citations.  A recent article in Science  describes how Cliques of mathematicians  have been artificially boosting their colleagues’ citation counts by churning out low-quality papers that repeatedly reference their work.
 
-The cost is that the literature becomes flooded  with a
+The cost is that the literature becomes flooded  with many papers. This makes it more difficult to searhc the literature and find quality research. This is analogous to making it harder to catch fish when a fishery is overfished: one must search through a large ocean (of poor quality papers) to find quality work.
 
-We all lose - just as in the classic open access fishery (forest, groundwater system, atmoshpere....)
+We all lose - just as in the classic open access fishery (forest, groundwater system, atmoshpere....).  We all work too hard to acheive the same thing. Should there be a "tradeable publication quota" just as in fisheries?
+
+{{% alert note %}}
+**[Click Here!](https://www.science.org/content/article/citation-cartels-help-some-mathematicians-and-their-universities-climb-rankings)**
+{{% /alert %}}
+
+
 
 
 
