@@ -13,6 +13,8 @@ The cost is that the literature becomes flooded  with many papers. This makes it
 
 We all lose - just as in the classic open access fishery (forest, groundwater system, atmosphere....).  We all work too hard to achieve the same thing. Should there be a "tradeable publication quota" just as in fisheries?  One unintended consequence of such an institution might be the concentration of publication power in the hands of those researchers with the most access to financial resources, just as with concentration of effort in fisheries.  Crafting effective institutions is a challenging problem!
 
+{{< cta cta_text="Do something" cta_link="/" cta_new_tab="false" >}}
+
 
 
 
