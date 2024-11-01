@@ -19,7 +19,7 @@ role: Ph.D. Candidate, School of Sustainability
 # Organizations/Affiliations
 organizations:
   - name: Arizona State University
-    url: ''
+    url: 'https://search.asu.edu/profile/3630634'
 
 # Short bio (displayed in user profile at end of posts)
 bio: Adam Wiechman is a graudate student at Arizona State University
@@ -34,9 +34,9 @@ education:
     - course: PhD in Sustainability
       institution: Arizona Sate University
       year: 2025 (Expected)
-    - course: BSc Political Science
+    - course: BA Political Science, BS Environmental Engineering
       institution: University of Notre Dame
-      year: 2021
+      year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -48,13 +48,16 @@ social:
     link: 'mailto:test@example.org'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/adamwiechman
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/awiechman55
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/0009-0001-1263-1251
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -70,4 +73,4 @@ user_groups:
   - Grad Students
 ---
 
-Adam brings a dynamical systems approach to public infrastructure challenges and explore the interconnected considerations that drive investment. My recent work uses the example of urban water systems in the United States to understand how institutional design contributes to the resilience and distributional equity of them. My methodological approaches include agent-based modeling, dynamical systems modeling, institutional analysis, network analysis, and qualitative content analysis.
+Adam's research examines the governance processes responsible for investment in sustainable infrastructure transitions. He uses an interdisciplinary approach that combines computational modeling with empirical investigation and builds upon public policy, public administration, political economy, human-natural systems, and sustainability. His recent work has involved urban water systems in Arizona responding to long-term declines in water availability to understand how institutional design contributes to system resilience, distributional equity, and collaboration. 
