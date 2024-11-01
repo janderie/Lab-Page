@@ -45,7 +45,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:ahwiechm@asu.edu'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/adamwiechman

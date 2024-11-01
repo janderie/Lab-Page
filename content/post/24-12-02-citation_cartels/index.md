@@ -3,7 +3,7 @@ title: The publication derby - Citation Cartels
 date: 2024-10-04
 ---
 
-We often think of the race to fish as the quintessential commons dilemma. So is the race to publish and generate citations according to a [recent article in Science](https://www.science.org/content/article/citation-cartels-help-some-mathematicians-and-their-universities-climb-rankings).
+We often think of the race to fish as the quintessential commons dilemma. So is the race to publish and generate citations according to a [recent article in Science](https://www.science.org/content/article/citation-cartels-help-some-mathematicians-and-their-universities-climb-rankings). {{< cta cta_text="See Article" cta_link="https://www.science.org/content/article/citation-cartels-help-some-mathematicians-and-their-universities-climb-rankings" cta_new_tab="true" >}}
 
 <!--more-->
 
