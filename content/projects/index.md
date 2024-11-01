@@ -68,7 +68,7 @@ sections:
         align: right
         background:
           image:
-            filename: Action.jpg
+            filename: CISI.jpg
             filters:
               brightness: 0.5
           position: center
