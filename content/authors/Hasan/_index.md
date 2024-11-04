@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Hasibul Hassan
+title: Hasibul Hasan
 
 # Full name (for SEO)
 first_name: Hasibul
-last_name: Hassan
+last_name: Hasan
 
 # Username (this should match the folder name)
 authors:
