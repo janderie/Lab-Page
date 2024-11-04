@@ -3,7 +3,7 @@ title: The publication derby - Citation Cartels
 date: 2024-11-04
 ---
 
-We often think of the race to fish as the quintessential commons dilemma. So is the race to publish and generate citations according to a recent article in Science.
+We often think of the race to *fish* as the quintessential commons dilemma. So is the race to publish and generate citations according to a recent article in Science.
 
 <!--more-->
 
