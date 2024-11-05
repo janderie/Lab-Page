@@ -19,7 +19,7 @@ role: Ph.D. Candidate, School of Sustainability
 # Organizations/Affiliations
 organizations:
   - name: Arizona State University
-    url: 'https://search.asu.edu/profile/3630634'
+    url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: Adam Wiechman is a graudate student at Arizona State University
