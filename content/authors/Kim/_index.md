@@ -39,9 +39,12 @@ education:
     - course: PhD in Sustainability
       institution: Arizona Sate University
       year: 2026 (Expected)
-    - course: BSc 
-      institution: Your Ugrad Institution
-      year: 2021
+    - course: MA in Political Science
+      institution: Seoul National University, Seoul, South Korea 
+      year: 2020
+    - course: BA in International Studies, minor in Law
+      institution: Kwangwoon University, Seoul, South Korea
+      year: 2017
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
