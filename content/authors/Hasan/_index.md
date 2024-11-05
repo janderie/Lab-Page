@@ -45,16 +45,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: 'mailto:mhasan40@asu.edu'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
+    link: https://scholar.google.com/citations?user=pgKhizkAAAAJ&hl=en&authuser=1
+  - icon: linkedin
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://www.linkedin.com/in/md-hasibul-hasan-94366a141/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/0000-0001-8240-4946
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -62,7 +62,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'mhasan40@asu.edu'
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -70,4 +70,4 @@ user_groups:
   - Grad Students
 ---
 
-Hasibul studies..... 
+Hasibul's research focuses on how institutions govern water systems in regions facing water scarcity and rapid technological change. He aims to explore the impact of new water management technologies on stakeholder cooperation, farming decisions in terms of water management, and the overall stability of water governance systems. His methodological approaches include qualitative content analysis, institutional analysis, dynamical systems modelling.
