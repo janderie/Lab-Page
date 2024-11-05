@@ -26,17 +26,20 @@ bio: Hasibul Hasan is a graudate student at Arizona State University
 
 interests:
   - Institutions
-  - Resource Governance - irrigation systems....
-  - .......
+  - Water Governance 
+  - GIS
 
 education:
   courses:
     - course: PhD in Sustainability
       institution: Arizona Sate University
       year: 2027 (Expected)
-    - course: BSc 
-      institution: Your Ugrad Institution
-      year: 2021
+    - course: M.Sc. in Water Resources Development
+      institution: Bangladesh University of Engineering and Technology
+      year: 2022
+    - course: Bachelor of Urban and Regional Planning
+      institution: Rajshahi University of Engineering and Technology, Bangladesh
+      year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
