@@ -3,7 +3,7 @@ title: A new kind of science for Earth Stewardship in the Anthropocene
 date: 2024-11-04
 ---
 
-[Image source](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/eas2.12019)
+Image Source: [Earth Stewardship 1(1): e12019](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/eas2.12019), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
 
 Innagural Article in the Inagural Issue of the new ESA Journal "Earth Stewardship": *A heart model of Earth Stewardship: Shaking up science for positive futures*.
