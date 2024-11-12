@@ -1,8 +1,8 @@
 ---
-title: IASC 2025
+title: IASC 2025 Governing Coupled Infrastructure Systems in Transition
 
 event: IASC Conference
-event_url: https://example.org
+event_url: https://2025.iasc-commons.org
 
 location: UMass Amherst
 address:
