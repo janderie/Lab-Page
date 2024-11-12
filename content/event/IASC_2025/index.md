@@ -5,12 +5,12 @@ event: IASC Conference, UMass Amherst
 event_url: https://2025.iasc-commons.org/
 
 location: UMass Amherst
-#address: 
- # street: 
- # city: 
- # region: 
-#  postcode: 
-#  country: 
+address: 
+  street: ''
+  city: ''
+  region: ''
+  postcode: ''
+  country: ''
 
 summary: An example event.
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
