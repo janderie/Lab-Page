@@ -7,8 +7,8 @@ event_url: https://2025.iasc-commons.org
 location: UMass Amherst
 address:
   street: 450 Serra Mall
-  city: Stanford
-  region: CA
+  city: Amherst
+  region: MA
   postcode: '94305'
   country: United States
 
