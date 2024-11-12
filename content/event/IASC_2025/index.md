@@ -1,16 +1,16 @@
 ---
-title: Example Event
+title: IASC 2025
 
-event: Wowchemy Conference
-event_url: https://example.org
+event: IASC Conference, UMass Amherst
+event_url: https://2025.iasc-commons.org/
 
-location: Wowchemy HQ
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+location: UMass Amherst
+#address: 
+ # street: 
+ # city: 
+ # region: 
+#  postcode: 
+#  country: 
 
 summary: An example event.
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
@@ -22,13 +22,13 @@ date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+#publishDate: '2017-01-01T00:00:00Z'
 
-authors: []
-tags: []
+#authors: []
+#tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+#featured: false
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
