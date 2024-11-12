@@ -6,10 +6,10 @@ event_url: https://2025.iasc-commons.org
 
 location: UMass Amherst
 address:
-  street: 450 Serra Mall
+  street: 
   city: Amherst
   region: MA
-  postcode: '94305'
+  postcode: 
   country: United States
 
 summary: Governing Coupled Infrastructure Systems in Transition.
@@ -32,7 +32,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [*IASC*](https://2025.iasc-commons.org)'
   focal_point: Right
 
 url_code: ''
