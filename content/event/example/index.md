@@ -1,5 +1,5 @@
 ---
-title: IASC 2025 Governing Coupled Infrastructure Systems in Transition
+title: IASC 2025 Panel
 
 event: IASC Conference
 event_url: https://2025.iasc-commons.org
@@ -12,13 +12,14 @@ address:
   postcode: '94305'
   country: United States
 
-summary: An example event.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: Governing Coupled Infrastructure Systems in Transition.
+abstract: 'Governing the commons involves navigating the interplay between different types of infrastructure (natural, social, hard, soft, and human). The Coupled Infrastructure Systems (CIS) Framework was developed to study the role of institutional arrangements, political processes and human decision making in providing and managing shared infrastructures and has been applied to traditional natural commons (forests, irrigation systems, wildlife), but also the built environment (transportation, urban water, energy), and even the lunar surface.
+This panel invites recent work of scholars using the CIS framework, especially in the context of transitions.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2025-06-01T13:00:00Z'
+date_end: '2025-06-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
