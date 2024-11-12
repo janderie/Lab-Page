@@ -1,10 +1,10 @@
 ---
-title: Example Event
+title: IASC 2025
 
-event: Wowchemy Conference
+event: IASC Conference
 event_url: https://example.org
 
-location: Wowchemy HQ
+location: UMass Amherst
 address:
   street: 450 Serra Mall
   city: Stanford
