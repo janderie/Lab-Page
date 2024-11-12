@@ -18,8 +18,8 @@ This panel invites recent work of scholars using the CIS framework, especially i
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-16-01T13:00:00Z'
-date_end: '2025-20-01T15:00:00Z'
+date: '2025-06-16T00:00:00Z'
+date_end: '2025-06-20T00:00:00Z'
 all_day: true 
 
 # Schedule page publish date (NOT talk date).
