@@ -55,6 +55,3 @@ slides:
 projects:
 ---
 
-Slides can be added in a few ways:
-
-Further event details, including page elements such as image galleries, can be added to the body of this page.
