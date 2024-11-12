@@ -18,9 +18,9 @@ This panel invites recent work of scholars using the CIS framework, especially i
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-06-01T13:00:00Z'
-date_end: '2025-06-01T15:00:00Z'
-all_day: false
+date: '2025-16-01T13:00:00Z'
+date_end: '2025-20-01T15:00:00Z'
+all_day: true 
 
 # Schedule page publish date (NOT talk date).
 publishDate: '2017-01-01T00:00:00Z'
@@ -56,9 +56,5 @@ projects:
 ---
 
 Slides can be added in a few ways:
-
-- **Create** slides using Wowchemy's [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
 
 Further event details, including page elements such as image galleries, can be added to the body of this page.
