@@ -10,7 +10,7 @@ address:
   city: Amherst
   region: MA
   postcode: 
-  country: United States
+  country: United States 
 
 summary: Governing Coupled Infrastructure Systems in Transition.
 abstract: 'Governing the commons involves navigating the interplay between different types of infrastructure (natural, social, hard, soft, and human). The Coupled Infrastructure Systems (CIS) Framework was developed to study the role of institutional arrangements, political processes and human decision making in providing and managing shared infrastructures and has been applied to traditional natural commons (forests, irrigation systems, wildlife), but also the built environment (transportation, urban water, energy), and even the lunar surface.
