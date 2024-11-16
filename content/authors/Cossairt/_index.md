@@ -70,4 +70,4 @@ user_groups:
   - Grad Students
 ---
 
-Aurora studies..... 
+
