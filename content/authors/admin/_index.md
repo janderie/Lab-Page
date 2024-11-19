@@ -1,9 +1,9 @@
 ---
 # Display name
-title: John Anderies
+title: Marty Anderies
 
 # Full Name (for SEO)
-first_name: John M. (Marty)
+first_name: John
 last_name: Anderies
 
 # Is this the primary user of the site?
