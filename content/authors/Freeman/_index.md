@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Fred Freeman
+title: J. Freeman
 
 # Full name (for SEO)
-first_name: Fred
+first_name: J 
 last_name: Freeman
 
 # Username (this should match the folder name)
@@ -14,50 +14,50 @@ authors:
 superuser: false
 
 # Role/position
-role: Ph.D. Candidate, School of Sustainability
+role: Associate Professor of Anthropology
 
 # Organizations/Affiliations
 organizations:
-  - name: Arizona State University
-    url: ''
+  - name: Utah State University
+    url: 'https://chass.usu.edu/anthropology/directory/freeman-jacob'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Adam Wiechman is a graudate student at Arizona State University
+bio:  Jacob Freeman is Associate Professor of Anthropology Program Director of the Anthropology Department at Utah State University
 
 interests:
   - Institutions
-  - Water
-  - Politics of Infrastructure Investment 
+  - Resilience of Complex Systems
+  - Collective Action and the Commons
 
 education:
   courses:
-    - course: PhD in Sustainability
+    - course: PhD in Anthropology
       institution: Arizona Sate University
-      year: 2025 (Expected)
-    - course: BA Political Science, BS Environmental Engineering
-      institution: University of Notre Dame
-      year: 2020
+      year: 2014
+    - course: other degrees
+      institution: School
+      year: year
+    - course: Other degrees 
+      institution: School 
+      year: year  
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-#social:
- # - icon: envelope
- #   icon_pack: fas
- #   link: 'mailto:ahwiechm@asu.edu'
- # - icon: twitter
- #   icon_pack: fab
- #   link: https://twitter.com/adamwiechman
- # - icon: google-scholar
- #   icon_pack: ai
- #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
- # - icon: github
- #   icon_pack: fab
- #   link: https://github.com/awiechman55
- # - icon: orcid
- #   icon_pack: fab
- #   link: https://orcid.org/0009-0001-1263-1251
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:test@example.org'
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/GeorgeCushen
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.co.uk/citations?user=wDMoc2IAAAAJ&hl=en&oi=ao
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -73,4 +73,4 @@ user_groups:
   - Alumni
 ---
 
-Adam's research examines the governance processes responsible for investment in sustainable infrastructure transitions. He uses an interdisciplinary approach that combines computational modeling with empirical investigation and builds upon public policy, public administration, political economy, human-natural systems, and sustainability. His recent work has involved urban water systems in Arizona responding to long-term declines in water availability to understand how institutional design contributes to system resilience, distributional equity, and collaboration. 
+Jacob's research centers on the resilience of complex coupled systems (e.g., engineered-social, socio-hydrological, social-ecological, or coupled natural and human systems) in Archaeological settings.....
