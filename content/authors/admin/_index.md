@@ -3,7 +3,7 @@
 title: Marty Anderies
 
 # Full Name (for SEO)
-first_name: Johm M. (Marty)
+first_name: John M. (Marty)
 last_name: Anderies
 
 # Is this the primary user of the site?
