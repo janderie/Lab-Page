@@ -14,50 +14,50 @@ authors:
 superuser: false
 
 # Role/position
-role: Associate Professor of Civil Engineering
+role: Ph.D. Candidate, School of Sustainability
 
 # Organizations/Affiliations
 organizations:
-  - name: Purdue University
-    url: 'https://engineering.purdue.edu/CCE/People/ptProfile?resource_id=126278'
+  - name: Arizona State University
+    url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio:  David J. Yu is Associate Professor of Civil Engineering in the  Lyles School of Civil and Construction Engineering at Purdue University. 
+bio: Adam Wiechman is a graudate student at Arizona State University
 
 interests:
   - Institutions
-  - Resilience of Complex Systems
-  - Collective Action and the Commons
+  - Water
+  - Politics of Infrastructure Investment 
 
 education:
   courses:
-    - course: PhD in Sustainability Science
+    - course: PhD in Sustainability
       institution: Arizona Sate University
-      year: 2015
-    - course: MPP
-      institution: Lee Kuan Yew School of Public Policy, National University of Singapore
-      year: 2010
-    - course: BSc
-      institution: School of Engineering Science, Simon Fraser University
-      year: 2004 
+      year: 2025 (Expected)
+    - course: BA Political Science, BS Environmental Engineering
+      institution: University of Notre Dame
+      year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=rECpnHEAAAAJ&hl=en&oi=ao
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
+#social:
+ # - icon: envelope
+ #   icon_pack: fas
+ #   link: 'mailto:ahwiechm@asu.edu'
+ # - icon: twitter
+ #   icon_pack: fab
+ #   link: https://twitter.com/adamwiechman
+ # - icon: google-scholar
+ #   icon_pack: ai
+ #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+ # - icon: github
+ #   icon_pack: fab
+ #   link: https://github.com/awiechman55
+ # - icon: orcid
+ #   icon_pack: fab
+ #   link: https://orcid.org/0009-0001-1263-1251
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -70,7 +70,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Grad Students
+  - Alumni
 ---
 
-David's research centers on the resilience of complex coupled systems (e.g., engineered-social, socio-hydrological, social-ecological, or coupled natural and human systems) to unexpected, emergent shocks, and how biophysical and institutional factors interact to shape the dynamics of such coupled systems. He examines these interactions to understand the conditions for building sustainable communities from local to global scales in the face of global change. David brings diverse knowledge sets together to engage in this research: systems thinking and modeling, collective action and the commons, and human behavior, among others. His research methods include mathematical and computational modeling, case study analysis, and behavioral experiments.
+Adam's research examines the governance processes responsible for investment in sustainable infrastructure transitions. He uses an interdisciplinary approach that combines computational modeling with empirical investigation and builds upon public policy, public administration, political economy, human-natural systems, and sustainability. His recent work has involved urban water systems in Arizona responding to long-term declines in water availability to understand how institutional design contributes to system resilience, distributional equity, and collaboration. 
