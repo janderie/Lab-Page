@@ -35,7 +35,7 @@ education:
       institution: Arizona Sate University
       year: 2027 (Expected)
     - course: BSc 
-      institution: Your Ugrad Institution
+      institution: University of Idaho
       year: 2021
 
 # Social/Academic Networking
