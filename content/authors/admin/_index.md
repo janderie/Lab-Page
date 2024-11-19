@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Marty Anderies
+title: John Anderies
 
 # Full Name (for SEO)
 first_name: John M. (Marty)
