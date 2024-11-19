@@ -73,6 +73,6 @@ user_groups:
   - Researchers
 ---
 
-J. Marty Anderies is a professor of sustainability at Arizona State University
+J. Marty Anderies is a professor of sustainability at Arizona State University.
 
 

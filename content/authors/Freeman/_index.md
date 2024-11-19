@@ -70,7 +70,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Alumni
+  - Grad Students
 ---
 
 David's research centers on the resilience of complex coupled systems (e.g., engineered-social, socio-hydrological, social-ecological, or coupled natural and human systems) to unexpected, emergent shocks, and how biophysical and institutional factors interact to shape the dynamics of such coupled systems. He examines these interactions to understand the conditions for building sustainable communities from local to global scales in the face of global change. David brings diverse knowledge sets together to engage in this research: systems thinking and modeling, collective action and the commons, and human behavior, among others. His research methods include mathematical and computational modeling, case study analysis, and behavioral experiments.
