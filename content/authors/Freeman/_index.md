@@ -39,7 +39,7 @@ education:
       year: year
     - course: Other degrees 
       institution: School 
-      year: year
+      year: year  
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
