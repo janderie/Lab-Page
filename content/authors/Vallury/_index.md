@@ -22,8 +22,7 @@ organizations:
     url: 'https://ecology.uga.edu/directory/sechindra-vallury/'
 
 # Short bio (displayed in user profile at end of posts)
-bio:  Sechindra Vallury is Assistant Professor and
-Director of Policy for the  River Basin Center at University of Georgia.
+bio:  Sechindra Vallury is Assistant Professor and Director of Policy for the   River Basin Center at University of Georgia.
 
 interests:
   - Institutions
