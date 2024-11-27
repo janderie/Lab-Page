@@ -48,7 +48,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:Sechindra.Vallury@uga.edu'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/GeorgeCushen
