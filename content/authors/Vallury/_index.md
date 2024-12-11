@@ -49,8 +49,7 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:Sechindra.Vallury@uga.edu'
-  - icon: bluesky
-    icon_pack: fab
+  - icon: brands/bluesky
     link: https://bsky.app/profile/sechindra.bsky.social
   - icon: google-scholar
     icon_pack: ai
