@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Assistant Professor of Natural Resource Governance
+role: Assistant Professor of Environmental Policy
 
 # Organizations/Affiliations
 organizations:
@@ -22,7 +22,7 @@ organizations:
     url: 'https://ecology.uga.edu/directory/sechindra-vallury/'
 
 # Short bio (displayed in user profile at end of posts)
-bio:  Sechindra Vallury is Assistant Professor and Director of Policy for the   River Basin Center at University of Georgia.
+bio:  Sechindra Vallury is Assistant Professor and Director of Policy for the  River Basin Center at University of Georgia.
 
 interests:
   - Institutions
@@ -49,15 +49,13 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:Sechindra.Vallury@uga.edu'
-  - icon: twitter
+  - icon: bluesky
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://bsky.app/profile/sechindra.bsky.social
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=i-75HoMAAAAJ&hl=en&oi=ao
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -73,4 +71,4 @@ user_groups:
   - Alumni
 ---
 
-Sechindras's research centers on the resilience of complex coupled systems (e.g., engineered-social, socio-hydrological, social-ecological, or coupled natural and human systems).
+Sechindra is a quantitative social scientist with policy-facing research on the political economy and distributional effects of climate adaptation in rural households. While his research is centered around agricultural development in South Asia, he also works across diverse resource systems in the U.S. and Europe, including pastoral, water, and energy systems. His work finds coherence through the common governance challenges and policy solutions that emerge across these different landscapes and geographical contexts.
