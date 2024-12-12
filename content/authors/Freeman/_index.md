@@ -47,21 +47,17 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:Sechindra.Vallury@uga.edu'
-  - icon: twitter
-    icon_pack: fab
-    link: https://bsky.app/profile/sechindra.bsky.social
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?user=i-75HoMAAAAJ&hl=en&oi=ao
-
+  - icon_pack: fas
+    icon: envelope
+    link: 'mailto:jacob.freeman@usu.edu'
+  - icon_pack: ai
+    icon: google-scholar
+    link: https://scholar.google.com/citations?user=wDMoc2IAAAAJ&hl=en
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+  - icon_pack: ai
+    icon: cv   
+    link: files/Freeman_CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
