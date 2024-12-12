@@ -54,7 +54,7 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:sola@asu.edu'
-  - icon: twitter
+  - icon: x-twitter
     icon_pack: fab
     link: https://x.com/ECOSolaKim
   - icon: google-scholar
