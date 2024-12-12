@@ -50,7 +50,7 @@ social:
     icon: envelope
     link: 'mailto:Sechindra.Vallury@uga.edu'
   - icon_pack: fab
-    icon: x-twitter
+    icon: bluesky
     link: https://bsky.app/profile/sechindra.bsky.social
   - icon_pack: ai
     icon: google-scholar
