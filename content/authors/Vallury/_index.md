@@ -46,14 +46,14 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
+  - icon_pack: fas
+    icon: envelope
     link: 'mailto:Sechindra.Vallury@uga.edu'
-  - icon: twitter
-    icon_pack: fab
+  - icon_pack: fab
+    icon: x-twitter
     link: https://bsky.app/profile/sechindra.bsky.social
-  - icon: google-scholar
-    icon_pack: ai
+  - icon_pack: ai
+    icon: google-scholar
     link: https://scholar.google.com/citations?user=i-75HoMAAAAJ&hl=en&oi=ao
 
 # Link to a PDF of your resume/CV from the About widget.
