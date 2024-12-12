@@ -28,7 +28,7 @@ interests:
   - Intersectional policy analysis
   - Indigenous reconciliation
   - Justice and resilience planning
-  - Power and policy framingInstitutions
+  - Power and policy framing
 
 education:
   courses:
