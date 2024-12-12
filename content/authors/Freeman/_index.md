@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Sechindra Vallury
+title: Jacob Freeman
 
 # Full name (for SEO)
-first_name: Sechindra
-last_name: Vallury
+first_name: Jacob
+last_name: Jacob Freeman
 
 # Username (this should match the folder name)
 authors:
@@ -14,12 +14,12 @@ authors:
 superuser: false
 
 # Role/position
-role: Assistant Professor of Environmental Policy
+role: Associate Professor of Anthropology
 
 # Organizations/Affiliations
 organizations:
-  - name: University of Georgia
-    url: 'https://ecology.uga.edu/directory/sechindra-vallury/'
+  - name: Utah State University
+    url: 'https://chass.usu.edu/anthropology/directory/freeman-jacob'
 
 # Short bio (displayed in user profile at end of posts)
 bio:  Sechindra Vallury is Assistant Professor and Director of Policy for the  River Basin Center at University of Georgia.
