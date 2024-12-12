@@ -22,12 +22,13 @@ organizations:
     url: 'https://chass.usu.edu/anthropology/directory/freeman-jacob'
 
 # Short bio (displayed in user profile at end of posts)
-bio:  Sechindra Vallury is Assistant Professor and Director of Policy for the  River Basin Center at University of Georgia.
+bio:   Jacob Freeman is Associate Professor of Anthropology Program Director of the Anthropology Department at Utah State University.
 
 interests:
+  - Innovation and Population Dynamics
   - Institutions
-  - Resilience of Complex Systems
-  - Collective Action and the Commons
+  - Robustness-fragility tradeoffs in Complex Systems
+  - Cognition, stress, and collective action
 
 education:
   courses:
