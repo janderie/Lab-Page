@@ -22,21 +22,25 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio:  Allain Barnett is a policy analyst with Natural Resources Cananda.
+bio:  Allain Barnett is a policy analyst with Natural Resources Canada.
 
 interests:
-  - Institutions
-  - Resilience of Urban Systems
-  - Collective Action and the Commons
+  - Intersectional policy analysis
+  - Indigenous reconciliation
+  - Justice and resilience planning
+  - Power and policy framingInstitutions
 
 education:
   courses:
-    - course: PhD in Sustainability Science
+    - course: PhD in Environmental Social Science
       institution: Arizona Sate University
       year: 2015
-    - course: BSc
-      institution: School of Engineering Science, Simon Fraser University
-      year: 2004 
+    - course: M.Sc. in Aquatic Ecology
+      institution: Université du Québec à Montréal
+      year: 2006
+    - course: BSc in Marine and Freshwater Biology
+      institution: University of Guelph
+      year: 2003 
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -63,3 +67,5 @@ email: ''
 user_groups:
   - Alumni
 ---
+
+Allain Barnett is a Policy Analyst at Natural Resources Canada. Prior to joining NRCan, he conducted postdoctoral research on justice and urban resilience planning for climate change and sea level rise at Florida International University, and environmental risk and ocean management at the University of New Brunswick. His doctoral research explored fisheries policy and the vulnerability of fishing households to climate change and economic crises. 
