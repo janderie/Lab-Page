@@ -9,7 +9,7 @@ sections:
     content:
       title: Contact
       text: |-
-        Please contact me if you are interested in our research or are considering graduate studies at ASU in the School of Human Evolution of Social Change, the School of Sustainability, or the School of Complex Adaptive systems. 
+        Please contact me if you are interested in our research or are considering graduate studies at ASU in the School of Human Evolution of Social Change, the School of Sustainability, or the School of Complex Adaptive systems.  
       email: m.anderies@asu.edu
       address:
         street: 900 Cady Mall
