@@ -18,12 +18,12 @@ organizations:
     url: 'https://search.asu.edu/profile/507986'
 
 # Short bio (displayed in user profile at end of posts)
-bio: J. Marty Anderies is a professor of sustainability at Arizona State University.
+bio: J. Marty Anderies is a professor of computational social science at Arizona State University.
 
 interests:
   - Institutions for Collective Action
   - Infrastructure Tranistions
-  - Robustness of Coupled Infrastructure Systems.
+  - Robustness of Coupled Infrastructure Systems
 
 education:
   courses:
