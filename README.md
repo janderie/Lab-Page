@@ -1,48 +1,121 @@
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
+# Anderies Lab Website
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
+Research group website built with [Hugo](https://gohugo.io/) and [Hugo Blox](https://hugoblox.com/).
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+## Prerequisites
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+- [Hugo](https://gohugo.io/installation/) (extended version)
+- [Node.js](https://nodejs.org/) (for local CMS)
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+### macOS Installation
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+**With Homebrew:**
+```bash
+brew install hugo node
+```
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
+**With MacPorts:**
+```bash
+sudo port install hugo nodejs22
+```
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+## Local Development
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+Start the Hugo development server:
+```bash
+hugo server
+```
 
-## We ask you, humbly, to support this open source movement
+View the site at `http://localhost:1313/`
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+## Content Management System (Decap CMS)
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+This site includes [Decap CMS](https://decapcms.org/) for editing content through a web interface.
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+### Running the CMS Locally
 
-## Demo credits
+1. Start Hugo server in one terminal:
+   ```bash
+   hugo server
+   ```
 
-Please replace the demo images with your own.
+2. Start the Decap CMS proxy server in another terminal (**must be run from the project directory**):
+   ```bash
+   npx decap-server
+   ```
 
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8
+3. Access the CMS at `http://localhost:1313/admin/`
+
+4. Click "Login" (no credentials needed for local development)
+
+### What You Can Edit via CMS
+
+| Content Type | Description |
+|--------------|-------------|
+| **Team Members** | Add/edit lab member profiles, roles, bios, and social links |
+| **Publications** | Manage research publications with authors, DOIs, and abstracts |
+| **Blog Posts** | Write news and blog posts |
+| **Events** | Add conferences, talks, and other events |
+| **Projects Page** | Edit the project slides/carousel |
+| **Home Page** | Modify homepage sections |
+
+### Content Structure
+
+```
+content/
+├── _index.md              # Home page
+├── authors/               # Team member profiles
+│   └── {Name}/
+│       ├── _index.md      # Profile data
+│       └── avatar.jpg     # Profile photo
+├── publication/           # Research publications
+│   └── {slug}/
+│       ├── index.md
+│       └── cite.bib
+├── post/                  # Blog posts
+│   └── {slug}/
+│       └── index.md
+├── event/                 # Events
+│   └── {slug}/
+│       └── index.md
+└── projects/              # Projects page
+    └── index.md
+```
+
+### Adding Team Member Photos
+
+Hugo Blox expects avatar images to be named `avatar.jpg` (or `avatar.png`) in each team member's folder. When uploading via CMS, you may need to rename the file to `avatar.jpg` in the folder.
+
+## Manual Content Editing
+
+You can also edit content directly in the markdown files:
+
+- **Team Members:** `content/authors/{Name}/_index.md`
+- **Publications:** `content/publication/{slug}/index.md`
+- **Blog Posts:** `content/post/{slug}/index.md`
+- **Events:** `content/event/{slug}/index.md`
+- **Projects:** `content/projects/index.md`
+- **Home Page:** `content/_index.md`
+
+## Configuration
+
+Site configuration files are in `config/_default/`:
+
+- `hugo.yaml` - Hugo settings
+- `params.yaml` - Site parameters and features
+- `menus.yaml` - Navigation menus
+- `module.yaml` - Hugo modules
+
+## Building for Production
+
+```bash
+hugo
+```
+
+The built site will be in the `public/` directory.
+
+## Resources
+
+- [Hugo Documentation](https://gohugo.io/documentation/)
+- [Hugo Blox Documentation](https://docs.hugoblox.com/)
+- [Decap CMS Documentation](https://decapcms.org/docs/)

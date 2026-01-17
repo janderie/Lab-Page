@@ -72,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/janderie/Lab-Page'
     content_dir: content
     branch: main
   avatar:
@@ -107,7 +107,7 @@ features:
 extensions:
   decap_cms:
     branch: main
-    local_backend: false
+    local_backend: true
   academicons:
     enable: true
 

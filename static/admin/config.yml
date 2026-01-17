@@ -1,0 +1,326 @@
+backend:
+  name: github
+  repo: janderie/Lab-Page
+  branch: main
+
+local_backend:
+  url: http://localhost:8081/api/v1
+
+media_folder: static/uploads
+public_folder: /uploads
+
+collections:
+  # ========================================
+  # TEAM MEMBERS / AUTHORS
+  # ========================================
+  - name: authors
+    label: Team Members
+    label_singular: Team Member
+    folder: content/authors
+    path: "{{slug}}/_index"
+    extension: md
+    media_folder: ""
+    public_folder: ""
+    create: true
+    identifier_field: title
+    fields:
+      - { label: "Avatar", name: avatar, widget: image, required: false, hint: "Profile photo - will be saved as avatar.jpg in the member's folder" }
+      - { label: "Display Name", name: title, widget: string }
+      - { label: "First Name", name: first_name, widget: string }
+      - { label: "Last Name", name: last_name, widget: string }
+      - label: "Author Slug"
+        name: authors
+        widget: list
+        allow_add: false
+        max: 1
+        field: { label: "Slug", name: slug, widget: string }
+      - { label: "Is Primary User?", name: superuser, widget: boolean, default: false }
+      - { label: "Role/Position", name: role, widget: string }
+      - label: "Organizations"
+        name: organizations
+        widget: list
+        fields:
+          - { label: "Name", name: name, widget: string }
+          - { label: "URL", name: url, widget: string, required: false }
+      - { label: "Short Bio", name: bio, widget: text, required: false }
+      - label: "Interests"
+        name: interests
+        widget: list
+        required: false
+        field: { label: "Interest", name: interest, widget: string }
+      - label: "Education"
+        name: education
+        widget: object
+        required: false
+        fields:
+          - label: "Courses"
+            name: courses
+            widget: list
+            fields:
+              - { label: "Degree", name: course, widget: string }
+              - { label: "Institution", name: institution, widget: string }
+              - { label: "Year", name: year, widget: number, required: false }
+      - label: "Social Links"
+        name: social
+        widget: list
+        required: false
+        fields:
+          - { label: "Icon", name: icon, widget: string, hint: "e.g., envelope, twitter, google-scholar" }
+          - { label: "Icon Pack", name: icon_pack, widget: select, options: ["fas", "fab", "ai"], default: "fas" }
+          - { label: "Link", name: link, widget: string, hint: "URL or mailto:email@example.com" }
+      - { label: "Email", name: email, widget: string, required: false }
+      - { label: "Highlight Name", name: highlight_name, widget: boolean, default: false }
+      - label: "User Groups"
+        name: user_groups
+        widget: select
+        multiple: true
+        options:
+          - "Principal Investigators"
+          - "Researchers"
+          - "Grad Students"
+          - "Administration"
+          - "Visitors"
+          - "Alumni"
+      - { label: "Biography", name: body, widget: markdown, required: false }
+
+  # ========================================
+  # PUBLICATIONS
+  # ========================================
+  - name: publications
+    label: Publications
+    label_singular: Publication
+    folder: content/publication
+    path: "{{slug}}/index"
+    extension: md
+    create: true
+    fields:
+      - { label: "Title", name: title, widget: string }
+      - label: "Authors"
+        name: authors
+        widget: list
+        field: { label: "Author Name", name: author, widget: string }
+      - { label: "Publication Date", name: date, widget: datetime }
+      - { label: "Publish Date", name: publishDate, widget: datetime, required: false }
+      - label: "Publication Type"
+        name: publication_types
+        widget: select
+        multiple: true
+        options:
+          - { label: "Journal Article", value: "article-journal" }
+          - { label: "Book Chapter", value: "chapter" }
+          - { label: "Conference Paper", value: "paper-conference" }
+          - { label: "Book", value: "book" }
+          - { label: "Thesis", value: "thesis" }
+          - { label: "Report", value: "report" }
+      - { label: "Publication/Journal", name: publication, widget: string, hint: "Wrap in asterisks for italics: *Journal Name*" }
+      - { label: "DOI", name: doi, widget: string, required: false }
+      - label: "Links"
+        name: links
+        widget: list
+        required: false
+        fields:
+          - { label: "Link Name", name: name, widget: string }
+          - { label: "URL", name: url, widget: string }
+      - { label: "Abstract", name: body, widget: markdown, required: false }
+
+  # ========================================
+  # BLOG POSTS
+  # ========================================
+  - name: posts
+    label: Blog Posts
+    label_singular: Blog Post
+    folder: content/post
+    path: "{{slug}}/index"
+    extension: md
+    create: true
+    fields:
+      - { label: "Title", name: title, widget: string }
+      - { label: "Date", name: date, widget: date }
+      - { label: "Summary", name: summary, widget: text, required: false }
+      - label: "Authors"
+        name: authors
+        widget: list
+        required: false
+        field: { label: "Author", name: author, widget: string }
+      - label: "Tags"
+        name: tags
+        widget: list
+        required: false
+        field: { label: "Tag", name: tag, widget: string }
+      - { label: "Featured", name: featured, widget: boolean, default: false, required: false }
+      - label: "Featured Image"
+        name: image
+        widget: object
+        required: false
+        fields:
+          - { label: "Image", name: filename, widget: image, required: false }
+          - { label: "Caption", name: caption, widget: string, required: false }
+          - { label: "Focal Point", name: focal_point, widget: select, options: ["Smart", "Center", "TopLeft", "Top", "TopRight", "Left", "Right", "BottomLeft", "Bottom", "BottomRight"], default: "Smart", required: false }
+      - { label: "Content", name: body, widget: markdown }
+
+  # ========================================
+  # EVENTS
+  # ========================================
+  - name: events
+    label: Events
+    label_singular: Event
+    folder: content/event
+    path: "{{slug}}/index"
+    extension: md
+    create: true
+    fields:
+      - { label: "Title", name: title, widget: string }
+      - { label: "Event Name", name: event, widget: string }
+      - { label: "Event URL", name: event_url, widget: string, required: false }
+      - { label: "Location", name: location, widget: string }
+      - label: "Address"
+        name: address
+        widget: object
+        required: false
+        fields:
+          - { label: "Street", name: street, widget: string, required: false }
+          - { label: "City", name: city, widget: string, required: false }
+          - { label: "Region/State", name: region, widget: string, required: false }
+          - { label: "Postal Code", name: postcode, widget: string, required: false }
+          - { label: "Country", name: country, widget: string, required: false }
+      - { label: "Summary", name: summary, widget: string, required: false }
+      - { label: "Abstract", name: abstract, widget: text, required: false }
+      - { label: "Start Date", name: date, widget: datetime }
+      - { label: "End Date", name: date_end, widget: datetime, required: false }
+      - { label: "All Day Event?", name: all_day, widget: boolean, default: false }
+      - { label: "Publish Date", name: publishDate, widget: datetime, required: false }
+      - label: "Authors"
+        name: authors
+        widget: list
+        required: false
+        field: { label: "Author", name: author, widget: string }
+      - label: "Tags"
+        name: tags
+        widget: list
+        required: false
+        field: { label: "Tag", name: tag, widget: string }
+      - { label: "Featured", name: featured, widget: boolean, default: false }
+      - { label: "Slides PDF URL", name: url_slides, widget: string, required: false }
+      - { label: "Video URL", name: url_video, widget: string, required: false }
+      - { label: "Content", name: body, widget: markdown, required: false }
+
+  # ========================================
+  # PROJECTS - Slides
+  # ========================================
+  - name: projects
+    label: Projects
+    files:
+      - name: projects-page
+        label: Projects Page
+        file: content/projects/index.md
+        fields:
+          - { label: "Title", name: title, widget: string }
+          - { label: "Date", name: date, widget: date }
+          - { label: "Type", name: type, widget: hidden, default: "landing" }
+          - label: "Project Slides"
+            name: sections
+            widget: list
+            max: 1
+            fields:
+              - { label: "Block", name: block, widget: hidden, default: "slider" }
+              - label: "Slides"
+                name: content
+                widget: object
+                fields:
+                  - label: "Slides"
+                    name: slides
+                    widget: list
+                    fields:
+                      - { label: "Title", name: title, widget: string }
+                      - { label: "Description", name: content, widget: text }
+                      - { label: "Align", name: align, widget: select, options: ["left", "center", "right"], default: "left" }
+                      - label: "Background"
+                        name: background
+                        widget: object
+                        fields:
+                          - label: "Image"
+                            name: image
+                            widget: object
+                            fields:
+                              - { label: "Image File", name: filename, widget: string }
+                              - label: "Filters"
+                                name: filters
+                                widget: object
+                                fields:
+                                  - { label: "Brightness (0-1)", name: brightness, widget: number, value_type: "float", min: 0, max: 1, step: 0.1, default: 0.7 }
+                          - { label: "Position", name: position, widget: select, options: ["left", "center", "right"], default: "center" }
+                          - { label: "Color", name: color, widget: string, default: "#666" }
+                      - label: "Link (optional)"
+                        name: link
+                        widget: object
+                        required: false
+                        collapsed: true
+                        fields:
+                          - { label: "Icon", name: icon, widget: string, default: "share" }
+                          - { label: "Icon Pack", name: icon_pack, widget: string, default: "fas" }
+                          - { label: "Link Text", name: text, widget: string }
+                          - { label: "URL", name: url, widget: string }
+              - label: "Design"
+                name: design
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "Slide Height", name: slide_height, widget: string, required: false, hint: "Leave empty for auto, or use e.g. '400px'" }
+                  - { label: "Fullscreen", name: is_fullscreen, widget: boolean, default: true }
+                  - { label: "Auto-loop", name: loop, widget: boolean, default: false }
+                  - { label: "Interval (ms)", name: interval, widget: number, default: 2000 }
+
+  # ========================================
+  # HOME PAGE
+  # ========================================
+  - name: homepage
+    label: Home Page
+    files:
+      - name: home
+        label: Home Page
+        file: content/_index.md
+        fields:
+          - { label: "Title", name: title, widget: string, required: false, hint: "Leave empty to use site title" }
+          - { label: "Date", name: date, widget: date }
+          - { label: "Type", name: type, widget: hidden, default: "landing" }
+          - label: "Sections"
+            name: sections
+            widget: list
+            fields:
+              - { label: "Block Type", name: block, widget: string }
+              - label: "Content"
+                name: content
+                widget: object
+                fields:
+                  - label: "Image"
+                    name: image
+                    widget: object
+                    required: false
+                    fields:
+                      - { label: "Filename", name: filename, widget: string, required: false }
+                  - { label: "Text", name: text, widget: markdown, required: false }
+                  - { label: "Title", name: title, widget: string, required: false }
+                  - { label: "Subtitle", name: subtitle, widget: string, required: false }
+                  - { label: "Count", name: count, widget: number, required: false }
+                  - { label: "Page Type", name: page_type, widget: string, required: false }
+                  - { label: "Order", name: order, widget: string, required: false }
+                  - label: "Filters"
+                    name: filters
+                    widget: object
+                    required: false
+                    collapsed: true
+                    fields:
+                      - { label: "Author", name: author, widget: string, required: false }
+                      - { label: "Category", name: category, widget: string, required: false }
+                      - { label: "Exclude Featured", name: exclude_featured, widget: boolean, required: false }
+                      - { label: "Publication Type", name: publication_type, widget: string, required: false }
+                      - { label: "Tag", name: tag, widget: string, required: false }
+                  - { label: "Offset", name: offset, widget: number, required: false }
+              - label: "Design"
+                name: design
+                widget: object
+                required: false
+                collapsed: true
+                fields:
+                  - { label: "View", name: view, widget: string, required: false }
+                  - { label: "Columns", name: columns, widget: string, required: false }
