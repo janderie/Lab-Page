@@ -21,7 +21,7 @@ sections:
                 brightness: 0.8
               size: 50%
               position: right
-            color: "#666"
+            color: "#8C1D40"
         - title: Our Research Network
           content: Our lab is housed in the Center for Behavior, Institutions, and the
             Environment (CBIE) and benefits from an international network
@@ -34,10 +34,10 @@ sections:
           align: right
           background:
             image:
-              filename: welcome_1.png
+              filename: network.jpg
               filters:
                 brightness: 0.8
-              size: 50%
+              size: 100%
               position: left
             color: "#666"
           link:
@@ -61,28 +61,29 @@ sections:
           align: left
           background:
             image:
-              filename: welcome_1.png
+              filename: resources.jpg
               filters:
                 brightness: 0.8
               position: right
-              size: 50%
+              size: 100%
             color: "#666"
         - title: Research Projects
           content: Our research projects span a number of biophysical contexts across
             renewable resource, water, energy, and transportation systems and
             geographical locations from the US southwest to South Asia, to the
             Arctic. Across this range of coupled infrastructure systems, our
-            work focuses on the common theme of understanding the role of
-            institutions (rules and norms) and governance processes in the
+            work focuses on the common theme of understanding how
+            institutions (rules and norms) and governance processes impact the
             capacity of these systems to cope with change.
-          align: left
+          align: right
           background:
             image:
-              filename: welcome_1.png
+              filename: Glen_Canyon_Dam02.jpg
               filters:
-                brightness: 0.4
-            position: center
-            color: "#555"
+                brightness: 0.8
+              position: center
+              size: 100%
+            color: "#666"
           link:
             icon: share
             icon_pack: fas

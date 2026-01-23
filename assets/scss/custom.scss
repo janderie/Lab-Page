@@ -1,0 +1,8 @@
+// Frosted glass effect behind slide text for readability
+.carousel-item .wg-hero {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
