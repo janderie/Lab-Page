@@ -9,6 +9,8 @@ last_name: Shin
 # Username (this should match the folder name)
 authors:
   - Shin
+  - Hoon Shin
+  - Hoon C. Shin
 
 # Is this the primary user of the site?
 superuser: false

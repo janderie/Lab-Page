@@ -242,24 +242,25 @@ collections:
                             name: image
                             widget: object
                             fields:
-                              - { label: "Image File", name: filename, widget: string }
+                              - { label: "Image File", name: filename, widget: string, required: false }
                               - label: "Filters"
                                 name: filters
                                 widget: object
+                                required: false
                                 fields:
-                                  - { label: "Brightness (0-1)", name: brightness, widget: number, value_type: "float", min: 0, max: 1, step: 0.1, default: 0.7 }
-                          - { label: "Position", name: position, widget: select, options: ["left", "center", "right"], default: "center" }
-                          - { label: "Color", name: color, widget: string, default: "#666" }
+                                  - { label: "Brightness (0-1)", name: brightness, widget: number, value_type: "float", min: 0, max: 1, step: 0.1, default: 0.7, required: false }
+                          - { label: "Position", name: position, widget: select, options: ["left", "center", "right"], default: "center", required: false }
+                          - { label: "Color", name: color, widget: string, default: "#666", required: false }
                       - label: "Link (optional)"
                         name: link
                         widget: object
                         required: false
                         collapsed: true
                         fields:
-                          - { label: "Icon", name: icon, widget: string, default: "share" }
-                          - { label: "Icon Pack", name: icon_pack, widget: string, default: "fas" }
-                          - { label: "Link Text", name: text, widget: string }
-                          - { label: "URL", name: url, widget: string }
+                          - { label: "Icon", name: icon, widget: string, default: "share", required: false }
+                          - { label: "Icon Pack", name: icon_pack, widget: string, default: "fas", required: false }
+                          - { label: "Link Text", name: text, widget: string, required: false }
+                          - { label: "URL", name: url, widget: string, required: false }
               - label: "Design"
                 name: design
                 widget: object
@@ -292,15 +293,44 @@ collections:
                 name: content
                 widget: object
                 fields:
-                  - label: "Image"
-                    name: image
-                    widget: object
+                  - label: "Slides (for slider block)"
+                    name: slides
+                    widget: list
                     required: false
                     fields:
-                      - { label: "Filename", name: filename, widget: string, required: false }
-                  - { label: "Text", name: text, widget: markdown, required: false }
+                      - { label: "Title", name: title, widget: string }
+                      - { label: "Content", name: content, widget: text }
+                      - { label: "Align", name: align, widget: select, options: ["left", "center", "right"], default: "left" }
+                      - label: "Background"
+                        name: background
+                        widget: object
+                        fields:
+                          - label: "Image"
+                            name: image
+                            widget: object
+                            fields:
+                              - { label: "Filename", name: filename, widget: string, required: false }
+                              - label: "Filters"
+                                name: filters
+                                widget: object
+                                required: false
+                                fields:
+                                  - { label: "Brightness (0-1)", name: brightness, widget: number, value_type: "float", min: 0, max: 1, step: 0.1, default: 0.7, required: false }
+                          - { label: "Position", name: position, widget: select, options: ["left", "center", "right"], default: "center", required: false }
+                          - { label: "Color", name: color, widget: string, default: "#666", required: false }
+                      - label: "Link (optional)"
+                        name: link
+                        widget: object
+                        required: false
+                        collapsed: true
+                        fields:
+                          - { label: "Icon", name: icon, widget: string, default: "share", required: false }
+                          - { label: "Icon Pack", name: icon_pack, widget: string, default: "fas", required: false }
+                          - { label: "Link Text", name: text, widget: string, required: false }
+                          - { label: "URL", name: url, widget: string, required: false }
                   - { label: "Title", name: title, widget: string, required: false }
                   - { label: "Subtitle", name: subtitle, widget: string, required: false }
+                  - { label: "Text", name: text, widget: markdown, required: false }
                   - { label: "Count", name: count, widget: number, required: false }
                   - { label: "Page Type", name: page_type, widget: string, required: false }
                   - { label: "Order", name: order, widget: string, required: false }
@@ -324,3 +354,7 @@ collections:
                 fields:
                   - { label: "View", name: view, widget: string, required: false }
                   - { label: "Columns", name: columns, widget: string, required: false }
+                  - { label: "Slide Height", name: slide_height, widget: string, required: false }
+                  - { label: "Fullscreen", name: is_fullscreen, widget: boolean, required: false }
+                  - { label: "Loop", name: loop, widget: boolean, required: false }
+                  - { label: "Interval (ms)", name: interval, widget: number, required: false }
