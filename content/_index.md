@@ -7,12 +7,7 @@ sections:
     content:
       slides:
         - title: Welcome
-          content: Research in the Anderies Lab focuses on the interplay between
-            institutions, decision-making and the environment in an effort to
-            inform robust institutional design for coupled
-            social-ecological-technical systems. Other areas of interest include
-            economic growth, demographics, migration, resilience and robustness
-            of coupled infrastructure systems.
+          content: Research in the Anderies Lab focuses on the interplay between institutions, decision-making and the environment in an effort to inform robust institutional design for coupled social-ecological-technical systems. Other areas of interest include economic growth, demographics, migration, resilience and robustness of coupled infrastructure systems.
           align: left
           background:
             image:
@@ -31,12 +26,12 @@ sections:
             includes collaborators at the Beijer Institute for Ecological
             Economics, The Stockholm Resilience Center, and the Potsdam
             Institute for Climate Impact Research.
-          align: right
+          align: left
           background:
             image:
               filename: network.jpg
               filters:
-                brightness: 0.8
+                brightness: 0.5
               size: 100%
               position: left
             color: "#666"
@@ -63,7 +58,7 @@ sections:
             image:
               filename: resources.jpg
               filters:
-                brightness: 0.8
+                brightness: 0.5
               position: right
               size: 100%
             color: "#666"
@@ -75,12 +70,12 @@ sections:
             work focuses on the common theme of understanding how
             institutions (rules and norms) and governance processes impact the
             capacity of these systems to cope with change.
-          align: right
+          align: left
           background:
             image:
               filename: Glen_Canyon_Dam02.jpg
               filters:
-                brightness: 0.8
+                brightness: 0.5
               position: center
               size: 100%
             color: "#666"
