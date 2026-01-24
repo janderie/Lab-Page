@@ -38,8 +38,8 @@ sections:
           link:
             icon: share
             icon_pack: fas
-            text: Visit CBIE
-            url: https://globalfutures.asu.edu/cbie/
+            text: Meet the Lab Group
+            url: './people/'
         - title: Resources
           content: 'Through our research and teaching activities, we have developed a
             number of open source resources for collaborative research and
