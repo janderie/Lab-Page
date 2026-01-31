@@ -1,68 +1,51 @@
 ---
-# Display name
 title: Hoon Shin
-
-# Full name (for SEO)
 first_name: Hoon
 last_name: Shin
-
-# Username (this should match the folder name)
 authors:
   - Shin
-  - Hoon Shin
-  - Hoon C. Shin
-
-# Is this the primary user of the site?
 superuser: false
-
-# Role/position
-role: Postdoctoral Research Associate
-
-# Organizations/Affiliations
+role: Assistant Professor of Environmental Policy
 organizations:
-  - name: Lyles School of Civil Engineering, Purdue University
-    url: ''
-
-# Short bio (displayed in user profile at end of posts)
-bio:  Hoon Shin is a ostdoctoral Research Associate at the Lyles School of Civil Engineering, Purdue University
-
+  - name: Pohang University of Science and Technology (POSTECH)
+    url: https://hss.postech.ac.kr/e_sub01/sub01.php
+bio: Hoon Shin is Assistant Professor of Environmental Policy
 interests:
   - Institutions
-  - Resilience and Human Behavior
-  - Collective Action and the Commons
-  - Coupled Natural and Human Systems
-
+  - Human Behavior
+  - Infrastructure Systems Behavior
 education:
   courses:
-    - course: PhD in Sustainability Science
+    - course: PhD in Environmental Social Science
       institution: Arizona Sate University
-      year: 2021
-    - course: BSc
-      institution: 
-      year: 2016
-
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+      year: 2020
+    - course: MA in Political Science
+      year: 2008
+      institution: Seoul National University
+    - course: BSc in Civil, Urban and Geosystem Engineering
+      institution: Seoul National University
+      year: ""
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:shin387@purdue.edu'
+    link: mailto:shin387@purdue.edu
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=JLjZcioAAAAJ&hl=en
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+email: ""
+highlight_name: false
 user_groups:
   - Alumni
 ---
+
+Hoon’s research investigates how coupled natural and human systems
+behave under sustainability stresses, and what makes them resilient
+and equitable across different governance settings. To address this
+question, he studies how human behavior, institutions, and
+infrastructure interact over time to shape social-ecological outcomes
+and tradeoffs in environmental, climate, and energy policy. His
+research agenda focuses on collective action, institutional design,
+and system performance under uncertainty and resource constraints.
+Methodologically, he combines behavioral experiments, mathematical
+and computational modeling, comparative case studies, and rule-based
+institutional analysis.
